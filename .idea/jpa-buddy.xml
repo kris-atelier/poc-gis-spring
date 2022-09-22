@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="JpaBuddyIdeaProjectConfig">
+  <component name="JpaBuddyIdeaProjectConfig" ddlActionDbType="postgres" migrateIndexesAndConstraints="true">
     <option name="defaultUnitInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="f724631e-d964-4fc7-a5d8-4792ed92bb17" />
+    <option name="reLastEntityCreationPackage" value="src/main/kotlin/com/example/demo/domain/entity" />
+    <reUseDbSnapshotConnections>
+      <dbConnection id="f724631e-d964-4fc7-a5d8-4792ed92bb17" />
+    </reUseDbSnapshotConnections>
+    <option name="newEntityIdStrategy" />
   </component>
 </project>
