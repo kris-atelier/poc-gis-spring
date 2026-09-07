@@ -7,7 +7,7 @@ plugins {
 
 group = "com.example"
 version = "0.0.1-SNAPSHOT"
-sourceCompatibility = JavaVersion.VERSION_18
+sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {
 	mavenCentral()
@@ -37,13 +37,13 @@ dependencies {
 compileKotlin {
 	kotlinOptions {
 		freeCompilerArgs = ['-Xjsr305=strict']
-		jvmTarget = '1.8'
+		jvmTarget = '17'
 	}
 }
 
 compileTestKotlin {
 	kotlinOptions {
 		freeCompilerArgs = ['-Xjsr305=strict']
-		jvmTarget = '1.8'
+		jvmTarget = '17'
 	}
 }
